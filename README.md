@@ -12,7 +12,7 @@ A novel dual-stream framework, 3DReg-Mamba, based on the Mamba model, treats 3D 
 
 **Modules Architecture Diagram**
 
-![](C:\Users\Administrator\Desktop\3DReg-Mamba_github\img\image18.png)
+![](.\img\image18.png)
 
 ## Usage
 
@@ -33,7 +33,7 @@ In particular, install the following two packages to ensure that Mamba will run 
 - OASIS ([link](https://sites.wustl.edu/oasisbrains/%5D))
 - AbdomenCT-CT ([link](https://cloud.imi.uni-luebeck.de/s/32WaSRaTnFk2JeT))
 
-###　Train and Infer Command
+### Train and Infer Command
 
 Before running the commands, please ensure that the dataset has been correctly placed. Taking the example of running the sample code on the LPBA40 dataset, ensure that the LPBA40 dataset is placed under `../Dataset/LPBA40_delineation/`. This will ensure that the code can run directly without encountering any path-related errors. (Here, `./` refers to the directory path where `Train.py` and `Infer.py` are located.)
 
@@ -59,7 +59,7 @@ The settings for each parameter of the code are located in `./utils/config.py`
 
 **Visual results obtained by applying each alignment method for registration on the IXI dataset**
 
-![](C:\Users\Administrator\Desktop\3DReg-Mamba_github\img\image07.png)
+![](.\img\image07.png)
 
 
 
@@ -67,7 +67,7 @@ The settings for each parameter of the code are located in `./utils/config.py`
 
 **Box plots show the Dice scores on 54 anatomical structures on the LPBA40 dataset using CycleMorph, VoxelMorph, TransMorph, TransMatch, OFG, CGNet, and our proposed method 3DRegMamba**
 
-![](C:\Users\Administrator\Desktop\3DReg-Mamba_github\img\image13.png)
+![](.\img\image13.png)
 
 
 
@@ -77,7 +77,7 @@ The settings for each parameter of the code are located in `./utils/config.py`
 
 
 
-![](C:\Users\Administrator\Desktop\3DReg-Mamba_github\img\image08.png)
+![](.\img\image08.png)
 
 
 
